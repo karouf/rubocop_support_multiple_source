@@ -1,0 +1,8 @@
+require:
+  - ./rubocop/support_multiple_source
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - rubocop/**
+    - Gemfile
